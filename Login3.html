@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="icon" href="Consolidation/Pictures/Dentistry Logo.png" type="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Login3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="login_container">
+
+    <!--******************LOGIN*************************-->
+        <form class="form" id="login" action="userCheck.php" method="POST">
+            <h1 class="form_title1"><a href="All_Webpages.html" class="goback" draggable="false"><img draggable="false" src="Consolidation/Pictures/Dentistry Logo.png"></a></h1>
+            <h1 class="form_title">Login</h1>
+            <div class="form_message form_message-error"></div>
+
+            <div class="form_input-group">
+                <input type="text" class="form_input" autofocus placeholder="User ID" name="userID">
+                <div class="form_input-error-message"></div>
+            </div>
+
+            <div class="form_input-group">
+                <input type="password" class="form_input" autofocus placeholder="Password" name="pass">
+                <div class="form_input-error-message"></div>    
+            </div>
+
+            
+                <button class="form_button" type="submit">Continue</button>
+
+                <p class="form_text">
+                    <a href="#" class="form_link">Forgot your Password?</a>
+                </p>
+                <p class="form_text">
+                    Don't have an account? <a href="Login3 clinician.php">Create account</a>
+                </p>
+
+
+
+        </form>
+    </div>
+    <script src="Login3.js"></script>
+</body>
+</html>
